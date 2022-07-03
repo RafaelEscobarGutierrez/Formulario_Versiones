@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-
+/* Contenedor */
 .form{
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -12,6 +12,7 @@
     overflow: hidden;
 }
 
+/* Contenedor de boxes-flex */
 .form-container{
     display: flex;
     margin: auto;
@@ -22,6 +23,7 @@
     overflow: hidden;
 }
 
+/* Boxes */
 .form-group{
     overflow: hidden;
     width: 38%;
@@ -29,6 +31,7 @@
     padding: 15px 0px;
 }
 
+/* Inputs */
 .form-input{
     background: none;
     color: #706c6c;
@@ -40,10 +43,12 @@
     border-bottom: 2px solid #5757577e;
 }
 
+/* Select */
 .b-select{
     flex-basis: 80%;
 }
 
+/* TextArea */
 textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -52,18 +57,22 @@ textarea {
     width: 100%;
 }
 
+/* Box TextArea */
 .b-t-area{
     margin: 20px auto;
     background-color: #3866f2;
     width: 80%;
+    
 }
 
+/* Title */
 .form-title{
     text-align: center;
     font-size: 2rem;
     margin-bottom: .5em;
 }
 
+/* BTN sumbit */
 .form-submit{
     background-color: #3866f2;
     width: 300px;
@@ -76,31 +85,30 @@ textarea {
     border-radius: .5em;
     margin: 20px auto;
 }
-/* **************************************************************************** */
-/* DISPOSICION */
 
 
 
-/* **************************************************************************** */
-
-/* Formulario */
-
+/* --- */
+/* Box select > select*/
 .content-select select{
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
 
+/* Herramienta select */
 .content-select select::-ms-expand {
     display: none;
 }
 
+/* Box select */
 .content-select{
     margin: 20px auto;
 	max-width: 100%;
 	position: relative;
 }
- 
+
+/* Box select > select --Dispoiciones-- */
 .content-select select{
 	display: inline-block;
 	width: 100%;
@@ -119,11 +127,13 @@ textarea {
     position: relative;
     transition: all 0.25s ease;
 }
- 
+
+/* Box select > select --Efecto HOVER-- */
 .content-select select:hover{
 	background: rgba(255, 255, 255, 1);
 }
- 
+
+/* Elemento desplegable */
 .content-select i{
 	position: absolute;
 	right: 20px;
@@ -136,10 +146,8 @@ textarea {
 	transform: rotate(-45deg); /* Giramos el cuadrado */
 	transition: all 0.10s ease;
 }
- 
+
+/*  Box select > select: i --Efecto HOVER--  */
 .content-select:hover i{
 	margin-top: 3px;
 }
-
-/*  */
-
